@@ -1,24 +1,38 @@
-﻿namespace CatFact;
+﻿using System.Net.Http;
+using System.Text.Json;
+
+namespace CatFact;
 
 public partial class MainPage : ContentPage
 {
-	int count = 0;
+    private const string ApiBaseUrl = "https://catfact.ninja";
 
-	public MainPage()
+    public MainPage()
 	{
 		InitializeComponent();
 	}
 
-	private void OnCounterClicked(object sender, EventArgs e)
+    //méthode async qui permet de se connecter à l'api et de récuperer le JSON
+	private async void LoadCatFact()
 	{
-		count++;
+		//Je crée le client HTTP
+        using var client = new HttpClient();
 
-		if (count == 1)
-			CounterBtn.Text = $"Clicked {count} time";
-		else
-			CounterBtn.Text = $"Clicked {count} times";
+		//Je construit le chemin de l'url pour récupérer un fait sur les chats
+        var apiUrl = $"{ApiBaseUrl}/fact";
 
-		SemanticScreenReader.Announce(CounterBtn.Text);
-	}
+        //Envoie d'une requête GET pour récuperer le fichier JSON
+        var response = await client.GetAsync(apiUrl);
+        response.EnsureSuccessStatusCode();
+        var jsonString = await response.Content.ReadAsStringAsync();
+
+        //deserialisation du fuchier Json en un obejt
+        var catFactResponse = JsonSerializer.Deserialize<CatFactResponse>(jsonString);
+    }
+}
+
+public class CatFactResponse
+{
+    public string Fact { get; set; }
 }
 
