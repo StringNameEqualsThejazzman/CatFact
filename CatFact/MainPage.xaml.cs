@@ -1,5 +1,8 @@
-﻿using System.Net.Http;
+﻿using System;
+using System.Net.Http;
 using System.Text.Json;
+using System.Threading.Tasks;
+using Microsoft.Maui.Controls;
 
 namespace CatFact;
 
@@ -10,7 +13,9 @@ public partial class MainPage : ContentPage
     public MainPage()
 	{
 		InitializeComponent();
-	}
+        LoadCatFact();
+
+    }
 
     //----------------méthode async qui permet de se connecter à l'api et de récuperer le JSON----------------
     private async void LoadCatFact()
@@ -49,6 +54,18 @@ public partial class MainPage : ContentPage
         {
             CatFactLabel.Text = "Erreur lors de la récupération du fait sur les chats.";
             Console.WriteLine($"Erreur : {ex.Message}");
+        }
+    }
+
+    private async void OnNewFactClicked(object sender, EventArgs e)
+    {
+        try
+        {
+            LoadCatFact();
+        }
+        catch (Exception ex)
+        {
+            await DisplayAlert("Erreur", "Impossible de charger le fait sur les chats : " + ex.Message, "OK");
         }
     }
 }
