@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Net.Http;
-using System.Text.Json;
 using System.Threading.Tasks;
 using Microsoft.Maui.Controls;
 
@@ -29,13 +28,31 @@ public partial class MainPage : ContentPage
             //Je construit le chemin de l'url pour récupérer un fait sur les chats
             var apiUrl = $"{ApiBaseUrl}/fact";
 
-            //Envoie d'une requête GET pour récuperer le fichier JSON
+            //Envoie d'une requête GET pour récuperer le fichier texte
             var response = await client.GetAsync(apiUrl);
             response.EnsureSuccessStatusCode();
-            var jsonString = await response.Content.ReadAsStringAsync();
+            var fact_string = await response.Content.ReadAsStringAsync();
+
+            //---------------------------------------------------------
+
+            //opération pour retirer toutes informations superflue du string reçu de l'api
+            int length = fact_string.IndexOf("\"length\":");
+            string length_string = fact_string.Substring(length);
+
+            fact_string = fact_string.Replace("{\"fact\":\"", "");
+            fact_string = fact_string.Replace("\",\"length\":", "");
+
+            length = length_string.IndexOf(":");
+            length_string = length_string.Substring(length + 1);
+            length_string = length_string.Replace("\",\"length\":", "");
+
+            fact_string = fact_string.Replace(length_string, "");
+
+            //---------------------------------------------------------
+
 
             //deserialisation du fuchier Json en un obejt
-            var catFactResponse = JsonSerializer.Deserialize<CatFactResponse>(jsonString);
+            var catFactResponse = new CatFactResponse(fact_string);
 
             //Mise à jour de l'affichage client
             CatFactLabel.Text = catFactResponse.Fact;
@@ -44,11 +61,6 @@ public partial class MainPage : ContentPage
         {
             CatFactLabel.Text = "Erreur lors de la récupération du fait sur les chats.";
             Console.WriteLine($"Erreur lors de la récupération du fait sur les chats : {ex.Message}");
-        }
-        catch (JsonException ex)
-        {
-            CatFactLabel.Text = "Erreur lors de la récupération du fait sur les chats.";
-            Console.WriteLine($"Erreur de la désérialisation du fichier JSON : {ex.Message}");
         }
         catch (Exception ex)
         {
@@ -73,5 +85,10 @@ public partial class MainPage : ContentPage
 public class CatFactResponse
 {
     public string Fact { get; set; }
+
+    public CatFactResponse(string fact)
+    {
+        this.Fact = fact;
+    }
 }
 
