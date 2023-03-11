@@ -2,6 +2,7 @@
 using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.Maui.Controls;
+using DeepL;
 
 namespace CatFact;
 
@@ -19,6 +20,10 @@ public partial class MainPage : ContentPage
     //----------------méthode async qui permet de se connecter à l'api et de récuperer le JSON----------------
     private async void LoadCatFact()
 	{
+        //connection a Deepl via le nugget package
+        var authKey = "d4d21ea8-37b9-ab4b-defe-a9a7e2efad92:fx";
+        var translator = new Translator(authKey);
+
         //gestion des exceptions
         try
         {
@@ -50,9 +55,17 @@ public partial class MainPage : ContentPage
 
             //---------------------------------------------------------
 
+            //
+            var fact_string_translated = await translator.TranslateTextAsync(
+                  fact_string,
+                  LanguageCode.English,
+                  LanguageCode.French);
+            Convert.ToString(fact_string_translated);
+            //---------------------------------------------------------
 
-            //deserialisation du fuchier Json en un obejt
-            var catFactResponse = new CatFactResponse(fact_string);
+
+            //création de l'objet avec les informations de la requête
+            var catFactResponse = new CatFactResponse(Convert.ToString(fact_string_translated));
 
             //Mise à jour de l'affichage client
             CatFactLabel.Text = catFactResponse.Fact;

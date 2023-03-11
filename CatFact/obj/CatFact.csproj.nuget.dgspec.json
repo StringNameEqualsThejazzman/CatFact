@@ -61,6 +61,10 @@
         "net6.0-android31.0": {
           "targetAlias": "net6.0-android",
           "dependencies": {
+            "DeepL.net": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
               "version": "[6.0.552, )",
@@ -167,6 +171,10 @@
         "net6.0-ios16.1": {
           "targetAlias": "net6.0-ios",
           "dependencies": {
+            "DeepL.net": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
               "version": "[6.0.552, )",
@@ -254,6 +262,10 @@
         "net6.0-maccatalyst16.1": {
           "targetAlias": "net6.0-maccatalyst",
           "dependencies": {
+            "DeepL.net": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
               "version": "[6.0.552, )",
@@ -342,6 +354,10 @@
         "net6.0-windows10.0.19041": {
           "targetAlias": "net6.0-windows10.0.19041.0",
           "dependencies": {
+            "DeepL.net": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
               "version": "[6.0.552, )",

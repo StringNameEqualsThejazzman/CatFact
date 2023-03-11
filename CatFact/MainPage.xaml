@@ -6,12 +6,15 @@
         <!-- Texte d'en-tête -->
         <Label Text="Un fait intéressant sur les chats :"
                FontSize="Large"
-               HorizontalOptions="Center" />
+               HorizontalOptions="Center"
+               TextColor="#4169e1"
+               Margin="20"/>
         <!-- Affichage du fait sur les chats -->
         <Label x:Name="CatFactLabel"
                Text="Chargement du fait en cours..."
                FontSize="Medium"
-               HorizontalOptions="Center" />
+               HorizontalOptions="Center"
+               Margin="20"/>
         <!-- Bouton qui permet d'afficher un nouveau fait sur les chats -->
         <Button Text="Nouveau fait"
                 Clicked="OnNewFactClicked"

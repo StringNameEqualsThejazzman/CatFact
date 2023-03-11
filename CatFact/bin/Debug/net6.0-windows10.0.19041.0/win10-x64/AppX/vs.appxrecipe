@@ -29,25 +29,25 @@
     <AppXManifest Include="D:\VS\projet VS\CatFact\CatFact\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-11T10:49:23.257</Modified>
+      <Modified>2023-03-11T12:01:35.274</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\VS\projet VS\CatFact\CatFact\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-03-11T10:49:22.562</Modified>
+      <Modified>2023-03-11T12:01:34.911</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VS\projet VS\CatFact\CatFact\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\CatFact.runtimeconfig.json">
       <PackagePath>CatFact.runtimeconfig.json</PackagePath>
-      <Modified>2023-03-11T08:48:28.814</Modified>
+      <Modified>2023-03-11T11:44:39.364</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VS\projet VS\CatFact\CatFact\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\CatFact.dll">
       <PackagePath>CatFact.dll</PackagePath>
-      <Modified>2023-03-11T10:49:20.999</Modified>
+      <Modified>2023-03-11T12:01:34.070</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VS\projet VS\CatFact\CatFact\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>CatFact.exe</PackagePath>
-      <Modified>2023-03-11T10:49:21.070</Modified>
+      <Modified>2023-03-11T12:01:34.139</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\louis\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.14\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -953,6 +953,10 @@
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2022-11-16T01:34:42.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\louis\.nuget\packages\deepl.net\1.6.0\lib\net5.0\DeepL.net.dll">
+      <PackagePath>DeepL.net.dll</PackagePath>
+      <Modified>2023-01-26T15:30:42.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\louis\.nuget\packages\microsoft.extensions.configuration\6.0.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
       <Modified>2022-02-24T00:12:18.000</Modified>
@@ -968,6 +972,14 @@
     <AppxPackagedFile Include="C:\Users\louis\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\6.0.0\lib\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
       <Modified>2021-10-22T23:48:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\louis\.nuget\packages\microsoft.extensions.http\5.0.0\lib\netstandard2.0\Microsoft.Extensions.Http.dll">
+      <PackagePath>Microsoft.Extensions.Http.dll</PackagePath>
+      <Modified>2020-10-19T18:49:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\louis\.nuget\packages\microsoft.extensions.http.polly\5.0.1\lib\netstandard2.0\Microsoft.Extensions.Http.Polly.dll">
+      <PackagePath>Microsoft.Extensions.Http.Polly.dll</PackagePath>
+      <Modified>2020-11-30T15:11:26.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\louis\.nuget\packages\microsoft.extensions.logging\6.0.0\lib\netstandard2.1\Microsoft.Extensions.Logging.dll">
       <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
@@ -1041,6 +1053,14 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2022-09-07T21:54:34.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\louis\.nuget\packages\polly\7.1.0\lib\netstandard2.0\Polly.dll">
+      <PackagePath>Polly.dll</PackagePath>
+      <Modified>2019-03-13T19:14:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\louis\.nuget\packages\polly.extensions.http\3.0.0\lib\netstandard2.0\Polly.Extensions.Http.dll">
+      <PackagePath>Polly.Extensions.Http.dll</PackagePath>
+      <Modified>2019-03-31T15:06:44.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\louis\.nuget\packages\system.net.http.json\7.0.0\lib\net6.0\System.Net.Http.Json.dll">
       <PackagePath>System.Net.Http.Json.dll</PackagePath>
       <Modified>2022-10-18T16:30:58.000</Modified>
@@ -1063,7 +1083,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VS\projet VS\CatFact\CatFact\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\CatFact.deps.json">
       <PackagePath>CatFact.deps.json</PackagePath>
-      <Modified>2023-03-11T10:49:23.086</Modified>
+      <Modified>2023-03-11T12:01:35.150</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\louis\.nuget\packages\microsoft.maui.controls.ref.win\6.0.552\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

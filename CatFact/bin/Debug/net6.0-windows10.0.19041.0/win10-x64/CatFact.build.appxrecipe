@@ -715,6 +715,9 @@
     <AppxPackagedFile Include="C:\Users\louis\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.28\lib\net6.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\louis\.nuget\packages\deepl.net\1.6.0\lib\net5.0\DeepL.net.dll">
+      <PackagePath>DeepL.net.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\louis\.nuget\packages\microsoft.extensions.configuration\6.0.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
     </AppxPackagedFile>
@@ -726,6 +729,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\louis\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\6.0.0\lib\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\louis\.nuget\packages\microsoft.extensions.http\5.0.0\lib\netstandard2.0\Microsoft.Extensions.Http.dll">
+      <PackagePath>Microsoft.Extensions.Http.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\louis\.nuget\packages\microsoft.extensions.http.polly\5.0.1\lib\netstandard2.0\Microsoft.Extensions.Http.Polly.dll">
+      <PackagePath>Microsoft.Extensions.Http.Polly.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\louis\.nuget\packages\microsoft.extensions.logging\6.0.0\lib\netstandard2.1\Microsoft.Extensions.Logging.dll">
       <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
@@ -780,6 +789,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\louis\.nuget\packages\microsoft.windowsappsdk\1.1.5\lib\net5.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\louis\.nuget\packages\polly\7.1.0\lib\netstandard2.0\Polly.dll">
+      <PackagePath>Polly.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\louis\.nuget\packages\polly.extensions.http\3.0.0\lib\netstandard2.0\Polly.Extensions.Http.dll">
+      <PackagePath>Polly.Extensions.Http.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\louis\.nuget\packages\system.net.http.json\7.0.0\lib\net6.0\System.Net.Http.Json.dll">
       <PackagePath>System.Net.Http.Json.dll</PackagePath>

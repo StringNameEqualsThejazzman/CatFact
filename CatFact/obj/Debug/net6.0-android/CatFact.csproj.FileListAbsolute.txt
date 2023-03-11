@@ -954,3 +954,8 @@ D:\VS\projet VS\CatFact\CatFact\obj\Debug\net6.0-android\stamp\_ConvertResources
 D:\VS\projet VS\CatFact\CatFact\obj\Debug\net6.0-android\stamp\_GenerateJavaStubs.stamp
 D:\VS\projet VS\CatFact\CatFact\obj\Debug\net6.0-android\stamp\_GeneratePackageManagerJava.stamp
 D:\VS\projet VS\CatFact\CatFact\obj\Debug\net6.0-android\stamp\_ResolveLibraryProjectImports.stamp
+D:\VS\projet VS\CatFact\CatFact\obj\Debug\net6.0-android\android\assets\DeepL.net.dll
+D:\VS\projet VS\CatFact\CatFact\obj\Debug\net6.0-android\android\assets\Microsoft.Extensions.Http.dll
+D:\VS\projet VS\CatFact\CatFact\obj\Debug\net6.0-android\android\assets\Microsoft.Extensions.Http.Polly.dll
+D:\VS\projet VS\CatFact\CatFact\obj\Debug\net6.0-android\android\assets\Polly.dll
+D:\VS\projet VS\CatFact\CatFact\obj\Debug\net6.0-android\android\assets\Polly.Extensions.Http.dll

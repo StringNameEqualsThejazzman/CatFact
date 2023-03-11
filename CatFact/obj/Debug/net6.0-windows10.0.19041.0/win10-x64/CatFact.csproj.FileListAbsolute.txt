@@ -358,3 +358,8 @@ D:\VS\projet VS\CatFact\CatFact\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\q
 D:\VS\projet VS\CatFact\CatFact\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\VS\projet VS\CatFact\CatFact\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\VS\projet VS\CatFact\CatFact\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+D:\VS\projet VS\CatFact\CatFact\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\DeepL.net.dll
+D:\VS\projet VS\CatFact\CatFact\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Http.dll
+D:\VS\projet VS\CatFact\CatFact\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Http.Polly.dll
+D:\VS\projet VS\CatFact\CatFact\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Polly.dll
+D:\VS\projet VS\CatFact\CatFact\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Polly.Extensions.Http.dll
