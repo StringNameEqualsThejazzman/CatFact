@@ -28,6 +28,9 @@ public partial class MainPage : ContentPage
 
         //deserialisation du fuchier Json en un obejt
         var catFactResponse = JsonSerializer.Deserialize<CatFactResponse>(jsonString);
+
+        //Mise à jour de l'affichage client
+        CatFactLabel.Text = catFactResponse.Fact;
     }
 }
 
