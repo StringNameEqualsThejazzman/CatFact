@@ -20,5 +20,25 @@
                 Clicked="OnNewFactClicked"
                 Margin="10"
                 HorizontalOptions="FillAndExpand" />
+        <Button Text="enregistrer le fait"
+                Clicked="AddData"
+                Margin="10"
+                HorizontalOptions="FillAndExpand" />
+        <Button Text="supprimer les faits"
+                Clicked="DeleteData"
+                Margin="10"
+                HorizontalOptions="FillAndExpand" />
+        <Label Text="faits enregistré :"
+               FontSize="Large"
+               HorizontalOptions="Center"
+               TextColor="#4169e1"
+               Margin="20"/>
+        <ListView x:Name="Output">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </StackLayout>
 </ContentPage>

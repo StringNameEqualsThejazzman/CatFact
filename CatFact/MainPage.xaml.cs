@@ -3,6 +3,11 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.Maui.Controls;
 using DeepL;
+using Microsoft.Extensions.Options;
+using Microsoft.EntityFrameworkCore.Sqlite;
+using Microsoft.EntityFrameworkCore;
+using System.Xml.Linq;
+using System.Linq;
 
 namespace CatFact;
 
@@ -11,11 +16,13 @@ public partial class MainPage : ContentPage
     private const string ApiBaseUrl = "https://catfact.ninja";
 
     public MainPage()
-	{
+    {
 		InitializeComponent();
         LoadCatFact();
+        Output.ItemsSource = DataCatFact.GetData();
 
     }
+
 
     //----------------méthode async qui permet de se connecter à l'api et de récuperer le JSON----------------
     private async void LoadCatFact()
@@ -92,6 +99,19 @@ public partial class MainPage : ContentPage
         {
             await DisplayAlert("Erreur", "Impossible de charger le fait sur les chats : " + ex.Message, "OK");
         }
+    }
+
+    private void AddData(object sender, EventArgs e)
+    {
+        DataCatFact.AddData(CatFactLabel.Text);
+
+        Output.ItemsSource = DataCatFact.GetData();
+    }
+
+    private void DeleteData(object sender, EventArgs e)
+    {
+        DataCatFact.DeleteData();
+        Output.ItemsSource = DataCatFact.GetData();
     }
 }
 

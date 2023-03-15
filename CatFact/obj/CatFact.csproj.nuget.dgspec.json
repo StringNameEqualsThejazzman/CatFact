@@ -65,6 +65,10 @@
               "target": "Package",
               "version": "[1.6.0, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
               "version": "[6.0.552, )",
@@ -77,7 +81,11 @@
             },
             "System.Net.Http.Json": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.1, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [
@@ -175,6 +183,10 @@
               "target": "Package",
               "version": "[1.6.0, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
               "version": "[6.0.552, )",
@@ -187,12 +199,16 @@
             },
             "System.Net.Http.Json": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.1, )"
             },
             "System.Runtime.InteropServices.NFloat.Internal": {
               "target": "Package",
               "version": "[6.0.1, )",
               "autoReferenced": true
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [
@@ -266,6 +282,10 @@
               "target": "Package",
               "version": "[1.6.0, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
               "version": "[6.0.552, )",
@@ -278,12 +298,16 @@
             },
             "System.Net.Http.Json": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.1, )"
             },
             "System.Runtime.InteropServices.NFloat.Internal": {
               "target": "Package",
               "version": "[6.0.1, )",
               "autoReferenced": true
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [
@@ -358,6 +382,10 @@
               "target": "Package",
               "version": "[1.6.0, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
               "version": "[6.0.552, )",
@@ -376,7 +404,11 @@
             },
             "System.Net.Http.Json": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.1, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [
