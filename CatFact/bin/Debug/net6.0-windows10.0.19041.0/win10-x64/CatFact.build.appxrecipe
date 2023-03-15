@@ -34,6 +34,9 @@
     <AppxPackagedFile Include="D:\VS\projet VS\CatFact\CatFact\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\CatFact.dll">
       <PackagePath>CatFact.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS\projet VS\CatFact\CatFact\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\CatFact.dll.config">
+      <PackagePath>CatFact.dll.config</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VS\projet VS\CatFact\CatFact\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>CatFact.exe</PackagePath>
     </AppxPackagedFile>
@@ -847,14 +850,56 @@
     <AppxPackagedFile Include="C:\Users\louis\.nuget\packages\system.text.json\7.0.2\lib\net6.0\System.Text.Json.dll">
       <PackagePath>System.Text.Json.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\louis\.nuget\packages\xunit.abstractions\2.0.3\lib\netstandard2.0\xunit.abstractions.dll">
+      <PackagePath>xunit.abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\louis\.nuget\packages\xunit.assert\2.4.2\lib\netstandard1.1\xunit.assert.dll">
+      <PackagePath>xunit.assert.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\louis\.nuget\packages\xunit.extensibility.core\2.4.2\lib\netstandard1.1\xunit.core.dll">
+      <PackagePath>xunit.core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\louis\.nuget\packages\xunit.extensibility.execution\2.4.2\lib\netstandard1.1\xunit.execution.dotnet.dll">
+      <PackagePath>xunit.execution.dotnet.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\louis\.nuget\packages\microsoft.graphics.win2d\1.0.3.1\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\louis\.nuget\packages\microsoft.windowsappsdk\1.1.5\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\louis\.nuget\packages\runtime.win7-x64.runtime.native.system.io.compression\4.3.0\runtimes\win7-x64\native\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\louis\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.4\runtimes\win-x64\native\e_sqlite3.dll">
       <PackagePath>e_sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS\visual studio\Common7\IDE\Extensions\Microsoft\SQLDB\DAC\Microsoft.Data.Tools.Schema.Sql.dll">
+      <PackagePath>Microsoft.Data.Tools.Schema.Sql.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS\visual studio\Common7\IDE\Extensions\Microsoft\SQLDB\Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll">
+      <PackagePath>Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS\visual studio\Common7\IDE\Extensions\Microsoft\SQLDB\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll">
+      <PackagePath>Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS\visual studio\Common7\IDE\Extensions\Microsoft\SQLDB\DAC\Microsoft.Data.Tools.Utilities.dll">
+      <PackagePath>Microsoft.Data.Tools.Utilities.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS\visual studio\Common7\IDE\Extensions\Microsoft\SQLDB\DAC\Microsoft.SqlServer.TransactSql.ScriptDom.dll">
+      <PackagePath>Microsoft.SqlServer.TransactSql.ScriptDom.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS\visual studio\Common7\IDE\Extensions\Microsoft\SQLDB\DAC\fr\Microsoft.Data.Tools.Schema.Sql.resources.dll">
+      <PackagePath>fr\Microsoft.Data.Tools.Schema.Sql.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS\visual studio\Common7\IDE\Extensions\Microsoft\SQLDB\fr\Microsoft.Data.Tools.Schema.Sql.UnitTesting.resources.dll">
+      <PackagePath>fr\Microsoft.Data.Tools.Schema.Sql.UnitTesting.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS\visual studio\Common7\IDE\Extensions\Microsoft\SQLDB\DAC\fr\Microsoft.Data.Tools.Utilities.resources.dll">
+      <PackagePath>fr\Microsoft.Data.Tools.Utilities.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VS\visual studio\Common7\IDE\Extensions\Microsoft\SQLDB\DAC\fr\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll">
+      <PackagePath>fr\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VS\projet VS\CatFact\CatFact\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\CatFact.deps.json">
       <PackagePath>CatFact.deps.json</PackagePath>

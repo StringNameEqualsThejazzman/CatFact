@@ -79,6 +79,10 @@
               "version": "[6.0.552, )",
               "autoReferenced": true
             },
+            "Microsoft.TestPlatform": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
             "System.Net.Http.Json": {
               "target": "Package",
               "version": "[7.0.1, )"
@@ -86,6 +90,10 @@
             "sqlite-net-pcl": {
               "target": "Package",
               "version": "[1.8.116, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
             }
           },
           "imports": [
@@ -197,6 +205,10 @@
               "version": "[6.0.552, )",
               "autoReferenced": true
             },
+            "Microsoft.TestPlatform": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
             "System.Net.Http.Json": {
               "target": "Package",
               "version": "[7.0.1, )"
@@ -209,6 +221,10 @@
             "sqlite-net-pcl": {
               "target": "Package",
               "version": "[1.8.116, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
             }
           },
           "imports": [
@@ -296,6 +312,10 @@
               "version": "[6.0.552, )",
               "autoReferenced": true
             },
+            "Microsoft.TestPlatform": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
             "System.Net.Http.Json": {
               "target": "Package",
               "version": "[7.0.1, )"
@@ -308,6 +328,10 @@
             "sqlite-net-pcl": {
               "target": "Package",
               "version": "[1.8.116, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
             }
           },
           "imports": [
@@ -396,6 +420,10 @@
               "version": "[6.0.552, )",
               "autoReferenced": true
             },
+            "Microsoft.TestPlatform": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
             "Microsoft.Windows.SDK.BuildTools": {
               "suppressParent": "All",
               "target": "Package",
@@ -409,6 +437,10 @@
             "sqlite-net-pcl": {
               "target": "Package",
               "version": "[1.8.116, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
             }
           },
           "imports": [

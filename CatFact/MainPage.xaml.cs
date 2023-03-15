@@ -35,7 +35,7 @@ public partial class MainPage : ContentPage
         try
         {
             //Je crée le client HTTP
-            using var client = new HttpClient();
+            var client = new HttpClient();
 
             //Je construit le chemin de l'url pour récupérer un fait sur les chats
             var apiUrl = $"{ApiBaseUrl}/fact";
