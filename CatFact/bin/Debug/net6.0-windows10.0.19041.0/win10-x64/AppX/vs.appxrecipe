@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\VS\projet VS\CatFact\CatFact\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-15T14:23:41.690</Modified>
+      <Modified>2023-03-15T14:29:23.233</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\VS\projet VS\CatFact\CatFact\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-03-15T14:23:41.214</Modified>
+      <Modified>2023-03-15T14:29:22.643</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VS\projet VS\CatFact\CatFact\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\CatFact.runtimeconfig.json">
       <PackagePath>CatFact.runtimeconfig.json</PackagePath>
@@ -43,7 +43,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VS\projet VS\CatFact\CatFact\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\CatFact.dll">
       <PackagePath>CatFact.dll</PackagePath>
-      <Modified>2023-03-15T14:23:39.582</Modified>
+      <Modified>2023-03-15T14:29:21.105</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VS\projet VS\CatFact\CatFact\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\CatFact.dll.config">
       <PackagePath>CatFact.dll.config</PackagePath>
@@ -51,7 +51,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VS\projet VS\CatFact\CatFact\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>CatFact.exe</PackagePath>
-      <Modified>2023-03-15T14:23:39.657</Modified>
+      <Modified>2023-03-15T14:29:21.189</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\louis\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.14\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1203,7 +1203,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\VS\projet VS\CatFact\CatFact\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\CatFact.deps.json">
       <PackagePath>CatFact.deps.json</PackagePath>
-      <Modified>2023-03-15T14:23:41.514</Modified>
+      <Modified>2023-03-15T14:29:23.043</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\louis\.nuget\packages\microsoft.maui.controls.ref.win\6.0.552\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
